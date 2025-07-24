@@ -6,6 +6,7 @@ import { useNavigate } from 'react-router-dom'
 import { useUser } from '@clerk/clerk-react'
 import Testimonial from '../components/Testimonial'
 import Plan from '../components/Plan'
+import Footer from '../components/Footer'
 
 const Home = () => {
 
@@ -16,6 +17,7 @@ const Home = () => {
     <AiTools />
     <Testimonial />
     <Plan />
+    <Footer />
     </>
   )
 }
